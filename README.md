@@ -94,29 +94,27 @@ class SkipGram_Model(nn.Module):
 ## Result
 * Input Word: `covid-19`
 * Output: 
-    * Similar Words
 
-        `patient` : 11.63%
+    `patient` : 11.63%
 
-        `diagnosis` : 7.46%
+    `diagnosis` : 7.46%
 
-        `vaccine` : 3.61%
+    `vaccine` : 3.61%
 
-        `pandemic` : 3.43%
+    `pandemic` : 3.43%
 
-        `disease` : 2.79%
+    `disease` : 2.79%
 
-        `primerdesign` : 2.39%
+    `primerdesign` : 2.39%
 
-        `coronavirus` : 2.08%
+    `coronavirus` : 2.08%
 
-        `infection` : 1.95%
+    `infection` : 1.95%
 
-        `vaccination` : 1.40%
+    `vaccination` : 1.40%
 
-        `test` : 1.33%
-    * Visualize
-
+    `test` : 1.33%
+    * Visualize: 利用PCA (Principal Components Analysis) 對word vectors進行降維。
         ![](https://i.imgur.com/ZoqZNgC.png)
 ## Reference
 * [Python 文字資料處理](https://www.itread01.com/content/1548704733.html)
